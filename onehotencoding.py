@@ -1,4 +1,5 @@
 # Create a set of unique words in the corpus
+
 unique_words = set()
 for sentence in corpus:
 	for word in sentence.split():

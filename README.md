@@ -6,5 +6,3 @@ Word embeddings are pivotal in modern Natural Language Processing (NLP) tasks be
 
 We will delve into different types of Word Embeddings and their corresponding code in the Python Notebook file
 
-![image](https://github.com/user-attachments/assets/b3a90111-1ee2-44a0-9754-9a8a412612b6)
-

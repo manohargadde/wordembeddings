@@ -5,8 +5,17 @@ TF-IDF is a statistical measure used in Natural Language Processing (NLP) to eva
 ## Components of TF-IDF:
 
 1. **Term Frequency (TF)**: Measures how often a word appears in a specific document.
+
+ ![image](https://github.com/user-attachments/assets/938fcf16-d954-4d7d-814b-e3a5b50ef9fe)
+
 2. **Inverse Document Frequency (IDF)**: Measures how important a word is by looking at how often it appears across all documents in the corpus. The more documents the word appears in, the lower its importance.
-3. **TF-IDF**: The final score for each word is the product of its TF and IDF scores.
+
+![image](https://github.com/user-attachments/assets/6e14bbc8-d309-43d6-b12b-b57dd7cd22e6)
+
+3. **TF-IDF**: The final score for each word is the product of its TF and IDF scores:
+
+![image](https://github.com/user-attachments/assets/c7321949-8cee-4d62-8503-845447f0b815)
+
 
 ## Example:
 
@@ -23,15 +32,22 @@ First, break each document into words:
 - Doc3: ["I", "love", "learning", "NLP"]
 
 ### Step 2: Calculate Term Frequency (TF)
+
 For each word in each document, calculate the term frequency.
+![image](https://github.com/user-attachments/assets/9c8bb63a-1b41-47fe-bf32-7db16f91c905)
+
 
 ### Step 3: Calculate Inverse Document Frequency (IDF)
 
-Now calculate the IDF for each word across the 3 documents.
+Now calculate the IDF for each word across the 3 documents:
+![image](https://github.com/user-attachments/assets/ce7ef1da-72d0-4fc5-8f9e-62eaa4164906)
+
 
 ### Step 4: Calculate TF-IDF
 
-Now, compute the TF-IDF score for each word in each document.
+Now, compute the TF-IDF score for each word in each document:
+![image](https://github.com/user-attachments/assets/bca227d7-95f4-457c-b8b8-2c6cdbe84b90)
+
 
 As seen in this example, words like “NLP” get a score of zero because they appear in every document, while words like "learning" and "great" receive higher scores due to their relative rarity across the corpus.
 
